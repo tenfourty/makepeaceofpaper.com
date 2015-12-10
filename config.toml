@@ -1,0 +1,12 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Make Peace of Paper"
+theme = "hugoscroll"
+
+[Params]
+  twitter = "peacepaper"
+  facebook = "makepeaceofpaper"
+  email = "makepeaceofpaper@gmail.com"
+  description = "Make Peace of Paper description"
+  cover = "cover.png"
+  logo = "logo.png"
