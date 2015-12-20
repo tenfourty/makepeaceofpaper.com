@@ -2,9 +2,6 @@
 date = "2015-12-10T21:31:47Z"
 title = "makepeace"
 description = "makepeace"
-weight = 1
-type = "post"
-class="post first"
 
 +++
 
