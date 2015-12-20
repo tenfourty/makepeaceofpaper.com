@@ -1,12 +1,121 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Make Peace of Paper"
-theme = "hugoscroll"
+theme = "hugo-freelancer-theme"
 
-[Params]
-  twitter = "peacepaper"
-  facebook = "makepeaceofpaper"
-  email = "makepeaceofpaper@gmail.com"
-  description = "Make Peace of Paper description"
-  cover = "cover.png"
-  logo = "logo.png"
+  [params]
+
+      # You can use Markdown syntax for urls [text](//url.to/source) for
+      # most longer texts.
+
+      # To provide some metadata for search engines feel free to add a few
+      # information about you and your website.
+      name = "makepeaceofpaper"
+      description = "A movement for peace"
+
+      # Since this template is static, the contact form uses www.formspree.io as a
+      # proxy. The form makes a POST request to their servers to send the actual
+      # email. Visitors can send up to a 1000 emails each month for free.
+      #
+      # What you need to do for the setup?
+      #
+      # - set your email address under 'email' below
+      # - upload the generated site to your server
+      # - send a dummy email youself to confirm your account
+      # - click the confirm link in the email from www.formspree.io
+      # - you're done. Happy mailing!
+      email = "makepeaceofpaper@gmail.com"
+
+      [params.navigation]
+          brand = "#makepeaceofpaper"
+
+
+      [params.header]
+          # Copy your own image into './static/img/'' if you wish
+          image = "mpop_y_sm.png"
+          name = "#makepeaceofpaper"
+          subtitle = "a movement for peace"
+
+
+      [params.portfolio]
+          # All projects defined in their own files. You can find example projects
+          # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+          # at the root of this Hugo site.
+          # For more informtion take a look at the README.
+          title = "Portfolio"
+
+          [params.portfolio.modal]
+              client = "Client"
+              date = "Date"
+              category = "Category"
+              buttontext = "Close"
+
+
+      [params.about]
+          title = "About"
+          # The about text is splitted into a left and right column
+          left = "We are Rosie and Lyd. Two friends living in Leeds, UK.<br/>In December 2015, Rosie arrived at Lyd’s house with an alternative Christmas card wishing friends and family peace this Christmas, as well as inviting them to pray for peace in the world - using a crane. She had heard something on the radio and this had inspired the cards. Lyd loved it so much that she wanted to invite everyones friends & family to join in.<br/>We started talking about how over the past few months we’ve both been struck by our social media newsfeeds, politicians, faith leaders, and the media all bombarding us with opinions, arguments and conflict. Especially about Syria. It seemed to us that something was missing. Within all the rhetoric and disagreements, there was one thing that every- one was in fact wanting to see.<br/>Peace.<br/>But no one was saying it.  And we got to wondering – what would it look like if we all put peace first; Peace above our opinion, our political standpoint, our finances even our own security.  So we came up with this little idea, to extend this Christmas card project to everyone (and not just over Christmas!); to take bad news and turn it into something beautiful – a symbol for peace, and to challenge ourselves, and perhaps others, to risk more towards creating this peace together.<br/>Therein lie the origins of #makepeaceofpaper"
+          right = "**The Paper Peace Crane**<br/>The paper crane has become an international symbol of peace in recent years as a result of it's connection to the Hiroshima Peace Park. Sadako Sasaki was born in 1943. She was only two years old when the bomb was dropped on Hiroshima. At 11, she was diagnosed with leukaemia, caused by radiation fallout. Whilst in hospital her friend told her a legend about the crane; a bird of happiness and long life. The legend says: “anyone who was ill should make 1,000 paper cranes and the gods would grant them a wish.” Sadako hoped that the gods would grant her wish to get well so that she could run again. Sadly, Sadako only managed to complete 644 paper cranes before dying on the 25 October, 1955, at the age of 12. The remaining 356 cranes were folded by her school friends so that she could be buried with 1,000 paper cranes. Paper peace cranes sent from all over the world now fill Hiroshimas Peace Park."
+
+          [params.about.button]
+              text = "Download theme"
+              link = "//github.com/digitalcraftsman/hugo-freelancer-theme/archive/master.zip"
+              icon = "download"
+
+
+      [params.contact]
+          title = "Contact"
+
+          # 'error' defines error messages for invalid inputs
+          [params.contact.form.name]
+              text = "Name"
+              error = "Please enter your name."
+
+          [params.contact.form.email]
+              text = "Email Address"
+              error = "Please enter your email address."
+
+          [params.contact.form.phone]
+              text = "Phone Number"
+              error = "Please enter your phone number."
+
+          [params.contact.form.message]
+              text = "Message"
+              error = "Please enter a message."
+
+          [params.contact.form.button]
+              text = "Send"
+
+
+      [params.footer]
+          copyright = "#MAKEPEACEOFPAPER is a movement that wants to put peace first - peace with one another, peace between nations, peace between political groups. We want to challenge ourselves and others to listen more, and talk less, and to be willing to risk giving up more of our position in order to secure peace."
+
+          [params.footer.like]
+              title = "Like and Follow Us"
+#              # Postal address (add as many lines as necessary)
+#              address = ["3481 Melrose Place", "Beverly Hills, CA 90210"]
+            [[params.footer.like.social]]
+                icon = "fa-facebook"
+                link = "//facebook.com/makepeaceofpaper"
+
+            [[params.footer.like.social]]
+                icon = "fa-twitter"
+                link=  "//twitter.com/peacepaper"
+
+            [[params.footer.like.social]]
+                icon = "fa-instagram"
+                link = "//instagram.com/makepeaceofpaper"
+
+          [params.footer.social]
+              title = "Contact Us"
+              # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+              # for more icons. The icons are represented by their corresponding
+              # CSS class.
+
+              [[params.footer.social.networks]]
+                  icon = "fa-envelope"
+                  link=  "mailto:makepeaceofpaper@gmail.com"
+
+          [params.footer.credits]
+              title = "#makepeaceofpaper"
+              text = "a movement for peace"
