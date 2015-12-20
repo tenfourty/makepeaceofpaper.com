@@ -3175,26 +3175,26 @@ fieldset[disabled] .btn-primary.focus {
 }
 .btn-success {
   color: #fff;
-  background-color: #4ba;
-  border-color: #3da899;
+  background-color: #353d62;
+  border-color: #2c3351;
 }
 .btn-success:focus,
 .btn-success.focus {
   color: #fff;
-  background-color: #369688;
-  border-color: #1b4b44;
+  background-color: #232841;
+  border-color: #000;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #369688;
-  border-color: #2d7b70;
+  background-color: #232841;
+  border-color: #171a2a;
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #fff;
-  background-color: #369688;
-  border-color: #2d7b70;
+  background-color: #232841;
+  border-color: #171a2a;
 }
 .btn-success:active:hover,
 .btn-success.active:hover,
@@ -3206,8 +3206,8 @@ fieldset[disabled] .btn-primary.focus {
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #fff;
-  background-color: #2d7b70;
-  border-color: #1b4b44;
+  background-color: #171a2a;
+  border-color: #000;
 }
 .btn-success:active,
 .btn-success.active,
@@ -3223,11 +3223,11 @@ fieldset[disabled] .btn-success:focus,
 .btn-success.disabled.focus,
 .btn-success[disabled].focus,
 fieldset[disabled] .btn-success.focus {
-  background-color: #4ba;
-  border-color: #3da899;
+  background-color: #353d62;
+  border-color: #2c3351;
 }
 .btn-success .badge {
-  color: #4ba;
+  color: #353d62;
   background-color: #fff;
 }
 .btn-info {
@@ -4885,11 +4885,11 @@ a.label:focus {
   background-color: #286090;
 }
 .label-success {
-  background-color: #4ba;
+  background-color: #353d62;
 }
 .label-success[href]:hover,
 .label-success[href]:focus {
-  background-color: #369688;
+  background-color: #232841;
 }
 .label-info {
   background-color: #fc5;
@@ -5165,7 +5165,7 @@ a.thumbnail.active {
           animation: progress-bar-stripes 2s linear infinite;
 }
 .progress-bar-success {
-  background-color: #4ba;
+  background-color: #353d62;
 }
 .progress-striped .progress-bar-success {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
