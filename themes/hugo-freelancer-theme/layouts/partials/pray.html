@@ -8,17 +8,10 @@
             </div>
         </div>
     <div class="row">
-        <div class="col-lg-4 col-lg-offset-2">
-            <p>{{ with .Site.Params.pray.left }}{{ . | markdownify }}{{ end }}</p>
+        <div class="col-lg-12">
+            <p>Prayer is our thing; we believe that prayer invites healing into hurt and light into darkness. If you too like to pray we’ve added this page as a place to pause and pray.</p>
+            <p>If prayer is not your thing, you may like to take time to reflect and hope.</p>
         </div>
-            <div class="col-lg-4">
-                <p>{{ with .Site.Params.pray.right }}{{ . | markdownify }}{{ end }}</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="{{ with .Site.Params.about.button.link }}{{.}}{{ end }}" class="btn btn-lg btn-outline">
-                    <i class="fa fa-{{ with .Site.Params.about.button.icon }}{{.}}{{end}}"></i> {{ with .Site.Params.about.button.text }}{{ . }}{{ end }}
-                </a>
-            </div>
-        </div>
+    </div>
     </div>
 </section>

@@ -8,17 +8,9 @@
             </div>
         </div>
     <div class="row">
-        <div class="col-lg-4 col-lg-offset-2">
-            <p>{{ with .Site.Params.give.left }}{{ . | markdownify }}{{ end }}</p>
+        <div class="col-lg-12">
+            <p>This is not a movement about fundraising but if giving floats your boat then we have selected 4 organisations that we think do fantastic work to promote peace & support those living without it. We invite you to give if it feels free & good to do so.</p>
         </div>
-            <div class="col-lg-4">
-                <p>{{ with .Site.Params.give.right }}{{ . | markdownify }}{{ end }}</p>
-            </div>
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="{{ with .Site.Params.about.button.link }}{{.}}{{ end }}" class="btn btn-lg btn-outline">
-                    <i class="fa fa-{{ with .Site.Params.about.button.icon }}{{.}}{{end}}"></i> {{ with .Site.Params.about.button.text }}{{ . }}{{ end }}
-                </a>
-            </div>
         </div>
     </div>
 </section>

@@ -34,7 +34,7 @@ theme = "hugo-freelancer-theme"
           # Copy your own image into './static/img/'' if you wish
           image = "mpop_y_sm.png"
           name = "#makepeaceofpaper"
-          subtitle = "a movement for peace, Watch to find out more..."
+          subtitle = "a movement for peace, watch to find out more..."
 
 
       [params.makepeace]
@@ -43,6 +43,7 @@ theme = "hugo-freelancer-theme"
           # at the root of this Hugo site.
           # For more informtion take a look at the README.
           title = "Make Peace"
+          content ="#MAKEPEACEOFPAPER is a movement that wants to put peace first - peace with one another, peace between nations, peace between political groups. We want to challenge ourselves and others to listen more, and talk less, and to be willing to risk giving up more of our position in order to secure peace. "
 
       [params.pray]
           title = "Pray"

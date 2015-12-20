@@ -2,7 +2,7 @@
  * Start Bootstrap - Freelancer Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+*/
 
 body {
     overflow-x: hidden;
@@ -32,9 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-weight: bold;
-    font-weight: 700;
 }
 
 hr.star-light,
@@ -150,9 +148,7 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     font-weight: bold;
-    font-weight: 700;
 }
 
 .navbar a:focus {
@@ -459,6 +455,7 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
 
 .videowrapper {
     float: none;
