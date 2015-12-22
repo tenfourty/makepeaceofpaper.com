@@ -1,15 +1,31 @@
 {{ "<!-- Give Section -->" | safeHTML }}
 <section id="give">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2>{{ with .Site.Params.give.title }}{{.}}{{ end }}</h2>
-            </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2>{{ with .Site.Params.give.title }}{{.}}{{ end }}</h2>
         </div>
+    </div>
     <div class="row">
         <div class="col-lg-12">
             <p>This is not a movement about fundraising but if giving floats your boat then we have selected 4 organisations that we think do fantastic work to promote peace & support those living without it. We invite you to give if it feels free & good to do so.</p>
         </div>
-        </div>
     </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <section class="warning text-center"><h4><a href="http://frrme.org/get-involved/donate/">Foundation for Relief and Reconciliation in the Middle East</a></h4></section>
+      </div>
+      <div class="col-lg-6">
+        <section class="danger text-center"><h4><a href="http://www.samarasaidappeal.org/medicalsyria/">Samara’s Aid Appeal</a></h4></section>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+        <section class="success text-center"><h4><a href="http://www.centreonreligionandglobalaffairs.org/support/">The Centre on Religion and Global Affairs</a></h4></section>
+      </div>
+      <div class="col-lg-6">
+        <section class="info text-center"><h4><a href="http://relief.medair.org/en/worth-the-extra-mile/">MEDAIR</a></h4></section>
+      </div>
+    </div>
+  </div>
 </section>
