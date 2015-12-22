@@ -294,6 +294,7 @@ section h2 {
 .navbar {
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 0.1em;
 }
 
 header {
@@ -350,6 +351,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-weight: bold;
+    letter-spacing: 0.1em;
 }
 
 section {
