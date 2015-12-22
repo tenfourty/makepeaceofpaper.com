@@ -22,6 +22,18 @@
             <p>It’s something beautiful, something good. It is the statement that the best victory we can imagine is peace. Make Peace of Paper.
               #makepeaceofpaper @peacepaper facebook.com/makepeaceofpaper instagram: makepeaceofpaper www.makepeaceofpaper.com
             </p>
+            <ul class="list-inline text-center">
+                {{ range .Site.Params.footer.like.social }}
+                    <li>
+                        <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
+                    </li>
+                {{ end }}
+                {{ range .Site.Params.footer.contact.networks }}
+                    <li>
+                        <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
+                    </li>
+                {{ end }}
+            </ul>
           </div>
       </div>
   </div>

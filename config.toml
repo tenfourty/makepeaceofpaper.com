@@ -107,13 +107,13 @@ theme = "hugo-freelancer-theme"
                 icon = "fa-youtube"
                 link = "//www.youtube.com/channel/UC7eB-H56nhwc2XeEcOzVPRQ"
 
-          [params.footer.social]
+          [params.footer.contact]
               title = "Contact Us"
               # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
               # for more icons. The icons are represented by their corresponding
               # CSS class.
 
-              [[params.footer.social.networks]]
+              [[params.footer.contact.networks]]
                   icon = "fa-envelope"
                   link=  "mailto:makepeaceofpaper@gmail.com"
 

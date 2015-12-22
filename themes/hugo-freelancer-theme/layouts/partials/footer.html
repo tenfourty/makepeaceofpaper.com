@@ -23,9 +23,9 @@
                     </ul>
                 </div>
                 <div class="footer-col col-md-4">
-                    <h3>{{ with .Site.Params.footer.social.title }}{{.}}{{ end }}</h3>
+                    <h3>{{ with .Site.Params.footer.contact.title }}{{.}}{{ end }}</h3>
                     <ul class="list-inline">
-                        {{ range .Site.Params.footer.social.networks }}
+                        {{ range .Site.Params.footer.contact.networks }}
                             <li>
                                 <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
                             </li>

@@ -21,5 +21,21 @@
           <em>The paper crane has become an international symbol of peace in recent years as a result of it's connection to the Hiroshima Peace Park. Sadako Sasaki was born in 1943. She was only two years old when the bomb was dropped on Hiroshima. At 11, she was diagnosed with leukaemia, caused by radiation fallout. Whilst in hospital her friend told her a legend about the crane; a bird of happiness and long life. The legend says: “anyone who was ill should make 1,000 paper cranes and the gods would grant them a wish.” Sadako hoped that the gods would grant her wish to get well so that she could run again. Sadly, Sadako only managed to complete 644 paper cranes before dying on the 25 October, 1955, at the age of 12. The remaining 356 cranes were folded by her school friends so that she could be buried with 1,000 paper cranes. Paper peace cranes sent from all over the world now fill Hiroshimas Peace Park.</em>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-12">
+          <ul class="list-inline text-center">
+              {{ range .Site.Params.footer.like.social }}
+                  <li>
+                      <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
+                  </li>
+              {{ end }}
+              {{ range .Site.Params.footer.contact.networks }}
+                  <li>
+                      <a href="{{ .link }}" class="btn-social btn-outline"><i class="fa fa-fw {{ .icon }}"></i></a>
+                  </li>
+              {{ end }}
+          </ul>
+        </div>
+    </div>
   </div>
 </section>
